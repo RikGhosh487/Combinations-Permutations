@@ -7,7 +7,7 @@ def factorial(input):
     if input < 0:
         return 'Invalid input. Must be a value greater than 0'
     if input == 0 or input == 1:
-        return 1;
+        return 1
     return input * factorial(input - 1)
 
 # smart factorial that doesn't perform the full operation and saves time
