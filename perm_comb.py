@@ -26,7 +26,7 @@ def fact_with_div(n, mid, k):
 # method that performs the combination formula
 def combination(n, k):
     numerator = fact_with_div(n, n - k, k)
-    denominator = factorial(k)
+    denominator = factorial(k) if k < n - k else factorial(n - k)
     return int(numerator / denominator)
 # method that performs the permutation formula
 def permutation(n, k):
