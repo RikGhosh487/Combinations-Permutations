@@ -9,4 +9,4 @@ The operations this program can perform include
 ### How it works
 This program has a very simple user interface
 It follows the following algorithmic approach for finding solutions:
-![Flowchart](https://github.com/RikGhosh487/Combinations-Permutations/flowchart.png)
+![Flowchart](https://github.com/RikGhosh487/Combinations-Permutations/blob/main/flowchart.png)
